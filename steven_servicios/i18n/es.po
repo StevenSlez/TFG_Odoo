@@ -1,0 +1,772 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* steven_servicios
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0-20240528\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-12 10:40+0000\n"
+"PO-Revision-Date: 2024-06-12 12:42+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#. module: steven_servicios
+#: model:ir.model.fields,field_description:steven_servicios.field_cita__message_needaction
+#: model:ir.model.fields,field_description:steven_servicios.field_cliente__message_needaction
+#: model:ir.model.fields,field_description:steven_servicios.field_empleado__message_needaction
+#: model:ir.model.fields,field_description:steven_servicios.field_servicio__message_needaction
+msgid "Action Needed"
+msgstr "Acción necesaria"
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/cita.py:0
+#: model:ir.model.fields,field_description:steven_servicios.field_cita__active
+#, python-format
+msgid "Active"
+msgstr "Activo"
+
+#. module: steven_servicios
+#: model:ir.model.fields,field_description:steven_servicios.field_cita__activity_ids
+#: model:ir.model.fields,field_description:steven_servicios.field_cliente__activity_ids
+#: model:ir.model.fields,field_description:steven_servicios.field_empleado__activity_ids
+#: model:ir.model.fields,field_description:steven_servicios.field_servicio__activity_ids
+msgid "Activities"
+msgstr "Actividades"
+
+#. module: steven_servicios
+#: model:ir.model.fields,field_description:steven_servicios.field_cita__activity_exception_decoration
+#: model:ir.model.fields,field_description:steven_servicios.field_cliente__activity_exception_decoration
+#: model:ir.model.fields,field_description:steven_servicios.field_empleado__activity_exception_decoration
+#: model:ir.model.fields,field_description:steven_servicios.field_servicio__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: steven_servicios
+#: model:ir.model.fields,field_description:steven_servicios.field_cita__activity_state
+#: model:ir.model.fields,field_description:steven_servicios.field_cliente__activity_state
+#: model:ir.model.fields,field_description:steven_servicios.field_empleado__activity_state
+#: model:ir.model.fields,field_description:steven_servicios.field_servicio__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: steven_servicios
+#: model:ir.model.fields,field_description:steven_servicios.field_cita__activity_type_icon
+#: model:ir.model.fields,field_description:steven_servicios.field_cliente__activity_type_icon
+#: model:ir.model.fields,field_description:steven_servicios.field_empleado__activity_type_icon
+#: model:ir.model.fields,field_description:steven_servicios.field_servicio__activity_type_icon
+msgid "Activity Type Icon"
+msgstr ""
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/cita.py:0
+#: model:ir.model,name:steven_servicios.model_cita
+#: model:ir.ui.menu,name:steven_servicios.menu_citas
+#: model_terms:ir.ui.view,arch_db:steven_servicios.view_cita_form
+#, python-format
+msgid "Appointment"
+msgstr "Cita"
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/cita.py:0
+#: model:ir.model.fields,field_description:steven_servicios.field_cita__code
+#: model:ir.model.fields,help:steven_servicios.field_cita__code
+#, python-format
+msgid "Appointment Code"
+msgstr "Código Cita"
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/cita.py:0
+#: model:ir.model.fields,help:steven_servicios.field_cita__cita_date
+#, python-format
+msgid "Appointment Date and Time"
+msgstr "Fecha y Hora de la Cita"
+
+#. module: steven_servicios
+#: model_terms:ir.ui.view,arch_db:steven_servicios.view_cita_form
+#: model_terms:ir.ui.view,arch_db:steven_servicios.view_cita_search
+msgid "Archived"
+msgstr "Archivado"
+
+#. module: steven_servicios
+#: model:ir.model.fields,field_description:steven_servicios.field_cita__message_attachment_count
+#: model:ir.model.fields,field_description:steven_servicios.field_cliente__message_attachment_count
+#: model:ir.model.fields,field_description:steven_servicios.field_empleado__message_attachment_count
+#: model:ir.model.fields,field_description:steven_servicios.field_servicio__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: steven_servicios
+#: model:ir.actions.act_window,name:steven_servicios.action_cita
+msgid "Cita"
+msgstr ""
+
+#. module: steven_servicios
+#: model:ir.model.fields,field_description:steven_servicios.field_cliente__cita_ids
+#: model:ir.model.fields,field_description:steven_servicios.field_empleado__cita_ids
+#: model_terms:ir.ui.view,arch_db:steven_servicios.view_cliente_form
+#: model_terms:ir.ui.view,arch_db:steven_servicios.view_empleado_form
+msgid "Citas"
+msgstr ""
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/cita.py:0
+#: code:addons/steven_servicios/models/cliente.py:0
+#: model:ir.model,name:steven_servicios.model_cliente
+#: model:ir.model.fields,field_description:steven_servicios.field_cita__cli_code
+#: model_terms:ir.ui.view,arch_db:steven_servicios.view_cita_search
+#: model_terms:ir.ui.view,arch_db:steven_servicios.view_cliente_form
+#, python-format
+msgid "Client"
+msgstr "Cliente"
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/cita.py:0
+#: code:addons/steven_servicios/models/cliente.py:0
+#: model:ir.model.fields,field_description:steven_servicios.field_cliente__code
+#: model:ir.model.fields,help:steven_servicios.field_cita__cli_code
+#, python-format
+msgid "Client Code"
+msgstr "Código Cliente"
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/cliente.py:0
+#: model:ir.model.fields,help:steven_servicios.field_cliente__code
+#, python-format
+msgid "Client's code"
+msgstr "Código del Cliente"
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/cliente.py:0
+#: model:ir.model.fields,help:steven_servicios.field_cita__cliente_last_name
+#: model:ir.model.fields,help:steven_servicios.field_cliente__last_name
+#, python-format
+msgid "Client's last name"
+msgstr "Apellidos del Cliente"
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/cliente.py:0
+#: model:ir.model.fields,help:steven_servicios.field_cliente__dni_cli
+#, python-format
+msgid "Client's nacional identification number"
+msgstr "DNI del Cliente"
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/cliente.py:0
+#: model:ir.model.fields,help:steven_servicios.field_cliente__name
+#, python-format
+msgid "Client's name"
+msgstr "Nombre del Cliente"
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/cliente.py:0
+#: model:ir.model.fields,help:steven_servicios.field_cliente__phone_number
+#, python-format
+msgid "Client's phone number"
+msgstr "Teléfono del Cliente"
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/cliente.py:0
+#: model:ir.model.fields,help:steven_servicios.field_cliente__date
+#, python-format
+msgid "Client's registration date"
+msgstr "Fecha de registro del Cliente"
+
+#. module: steven_servicios
+#: model:ir.actions.act_window,name:steven_servicios.action_cliente
+msgid "Cliente"
+msgstr ""
+
+#. module: steven_servicios
+#: model:ir.ui.menu,name:steven_servicios.menu_cliente
+msgid "Clients"
+msgstr "Clientes"
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/empleado.py:0
+#: model:ir.model.fields,field_description:steven_servicios.field_empleado__date
+#, python-format
+msgid "Contract Date"
+msgstr "Fecha de Contrato"
+
+#. module: steven_servicios
+#: model:ir.model.fields,field_description:steven_servicios.field_cita__create_uid
+#: model:ir.model.fields,field_description:steven_servicios.field_cliente__create_uid
+#: model:ir.model.fields,field_description:steven_servicios.field_empleado__create_uid
+#: model:ir.model.fields,field_description:steven_servicios.field_servicio__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: steven_servicios
+#: model:ir.model.fields,field_description:steven_servicios.field_cita__create_date
+#: model:ir.model.fields,field_description:steven_servicios.field_cliente__create_date
+#: model:ir.model.fields,field_description:steven_servicios.field_empleado__create_date
+#: model:ir.model.fields,field_description:steven_servicios.field_servicio__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: steven_servicios
+#: model:ir.model.fields,field_description:steven_servicios.field_servicio__currency_id
+msgid "Currency"
+msgstr "Moneda"
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/cita.py:0
+#: model:ir.model.fields,field_description:steven_servicios.field_cita__cita_date
+#: model_terms:ir.ui.view,arch_db:steven_servicios.view_cita_search
+#: model_terms:ir.ui.view,arch_db:steven_servicios.view_cliente_search
+#, python-format
+msgid "Date"
+msgstr "Fecha"
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/servicio.py:0
+#: model:ir.model.fields,field_description:steven_servicios.field_servicio__descr
+#, python-format
+msgid "Description"
+msgstr "Descripción"
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/servicio.py:0
+#: model:ir.model.fields,help:steven_servicios.field_servicio__descr
+#, python-format
+msgid "Description of the service"
+msgstr "Descripción del servicio"
+
+#. module: steven_servicios
+#: model_terms:ir.ui.view,arch_db:steven_servicios.view_cita_form
+#: model_terms:ir.ui.view,arch_db:steven_servicios.view_cliente_form
+#: model_terms:ir.ui.view,arch_db:steven_servicios.view_empleado_form
+#: model_terms:ir.ui.view,arch_db:steven_servicios.view_servicio_form
+msgid "Detailed Information"
+msgstr "Información Detallada"
+
+#. module: steven_servicios
+#: model:ir.model.fields,field_description:steven_servicios.field_cita__display_name
+#: model:ir.model.fields,field_description:steven_servicios.field_cliente__display_name
+#: model:ir.model.fields,field_description:steven_servicios.field_empleado__display_name
+#: model:ir.model.fields,field_description:steven_servicios.field_servicio__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: steven_servicios
+#: model:ir.actions.act_window,name:steven_servicios.action_empleado
+msgid "Empleado"
+msgstr ""
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/cita.py:0
+#: code:addons/steven_servicios/models/empleado.py:0
+#: model:ir.model,name:steven_servicios.model_empleado
+#: model:ir.model.fields,field_description:steven_servicios.field_cita__emp_code
+#: model_terms:ir.ui.view,arch_db:steven_servicios.view_cita_search
+#: model_terms:ir.ui.view,arch_db:steven_servicios.view_empleado_form
+#, python-format
+msgid "Employee"
+msgstr "Empleado"
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/cita.py:0
+#: code:addons/steven_servicios/models/empleado.py:0
+#: model:ir.model.fields,field_description:steven_servicios.field_empleado__code
+#: model:ir.model.fields,help:steven_servicios.field_cita__emp_code
+#, python-format
+msgid "Employee Code"
+msgstr "Código Empleado"
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/cita.py:0
+#, python-format
+msgid "Employee must have at least 45 minutes between appointments."
+msgstr "El Empleado debe tener al menos 45 minutos de separación entre citas"
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/empleado.py:0
+#: model:ir.model.fields,help:steven_servicios.field_empleado__code
+#, python-format
+msgid "Employee's code"
+msgstr "Código del Empleado"
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/empleado.py:0
+#: model:ir.model.fields,help:steven_servicios.field_empleado__date
+#, python-format
+msgid "Employee's contract date"
+msgstr "Fecha de Contrato del Empleado"
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/empleado.py:0
+#: model:ir.model.fields,help:steven_servicios.field_empleado__last_name
+#, python-format
+msgid "Employee's last name"
+msgstr "Apellidos del Empleado"
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/empleado.py:0
+#: model:ir.model.fields,help:steven_servicios.field_empleado__dni_emp
+#, python-format
+msgid "Employee's nacional identification number"
+msgstr "DNI del Empleado"
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/empleado.py:0
+#: model:ir.model.fields,help:steven_servicios.field_empleado__name
+#, python-format
+msgid "Employee's name"
+msgstr "Nombre del Empleado"
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/empleado.py:0
+#: model:ir.model.fields,help:steven_servicios.field_empleado__phone_number
+#, python-format
+msgid "Employee's phone number"
+msgstr "Teléfono del Empleado"
+
+#. module: steven_servicios
+#: model:ir.ui.menu,name:steven_servicios.menu_empleados
+msgid "Employees"
+msgstr "Empleados"
+
+#. module: steven_servicios
+#: model:ir.model.fields,field_description:steven_servicios.field_cita__message_follower_ids
+#: model:ir.model.fields,field_description:steven_servicios.field_cliente__message_follower_ids
+#: model:ir.model.fields,field_description:steven_servicios.field_empleado__message_follower_ids
+#: model:ir.model.fields,field_description:steven_servicios.field_servicio__message_follower_ids
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: steven_servicios
+#: model:ir.model.fields,field_description:steven_servicios.field_cita__message_partner_ids
+#: model:ir.model.fields,field_description:steven_servicios.field_cliente__message_partner_ids
+#: model:ir.model.fields,field_description:steven_servicios.field_empleado__message_partner_ids
+#: model:ir.model.fields,field_description:steven_servicios.field_servicio__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidores (Partners)"
+
+#. module: steven_servicios
+#: model:ir.model.fields,help:steven_servicios.field_cita__activity_type_icon
+#: model:ir.model.fields,help:steven_servicios.field_cliente__activity_type_icon
+#: model:ir.model.fields,help:steven_servicios.field_empleado__activity_type_icon
+#: model:ir.model.fields,help:steven_servicios.field_servicio__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: steven_servicios
+#: model:ir.model.fields.selection,name:steven_servicios.selection__cita__cita_status__future
+msgid "Future"
+msgstr "Futuro"
+
+#. module: steven_servicios
+#: model_terms:ir.ui.view,arch_db:steven_servicios.view_cita_search
+#: model_terms:ir.ui.view,arch_db:steven_servicios.view_cliente_search
+#: model_terms:ir.ui.view,arch_db:steven_servicios.view_empleado_search
+#: model_terms:ir.ui.view,arch_db:steven_servicios.view_servicio_search
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: steven_servicios
+#: model:ir.model.fields,field_description:steven_servicios.field_cita__has_message
+#: model:ir.model.fields,field_description:steven_servicios.field_cliente__has_message
+#: model:ir.model.fields,field_description:steven_servicios.field_empleado__has_message
+#: model:ir.model.fields,field_description:steven_servicios.field_servicio__has_message
+msgid "Has Message"
+msgstr "Tiene un mensaje"
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/cliente.py:0
+#: code:addons/steven_servicios/models/empleado.py:0
+#: model:ir.model.fields,field_description:steven_servicios.field_cita__id
+#: model:ir.model.fields,field_description:steven_servicios.field_cliente__dni_cli
+#: model:ir.model.fields,field_description:steven_servicios.field_cliente__id
+#: model:ir.model.fields,field_description:steven_servicios.field_empleado__dni_emp
+#: model:ir.model.fields,field_description:steven_servicios.field_empleado__id
+#: model:ir.model.fields,field_description:steven_servicios.field_servicio__id
+#, python-format
+msgid "ID"
+msgstr "DNI"
+
+#. module: steven_servicios
+#: model:ir.model.fields,field_description:steven_servicios.field_cita__activity_exception_icon
+#: model:ir.model.fields,field_description:steven_servicios.field_cliente__activity_exception_icon
+#: model:ir.model.fields,field_description:steven_servicios.field_empleado__activity_exception_icon
+#: model:ir.model.fields,field_description:steven_servicios.field_servicio__activity_exception_icon
+msgid "Icon"
+msgstr "Icono"
+
+#. module: steven_servicios
+#: model:ir.model.fields,help:steven_servicios.field_cita__activity_exception_icon
+#: model:ir.model.fields,help:steven_servicios.field_cliente__activity_exception_icon
+#: model:ir.model.fields,help:steven_servicios.field_empleado__activity_exception_icon
+#: model:ir.model.fields,help:steven_servicios.field_servicio__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: steven_servicios
+#: model:ir.model.fields,help:steven_servicios.field_cita__message_needaction
+#: model:ir.model.fields,help:steven_servicios.field_cliente__message_needaction
+#: model:ir.model.fields,help:steven_servicios.field_empleado__message_needaction
+#: model:ir.model.fields,help:steven_servicios.field_servicio__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: steven_servicios
+#: model:ir.model.fields,help:steven_servicios.field_cita__message_has_error
+#: model:ir.model.fields,help:steven_servicios.field_cliente__message_has_error
+#: model:ir.model.fields,help:steven_servicios.field_empleado__message_has_error
+#: model:ir.model.fields,help:steven_servicios.field_servicio__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: steven_servicios
+#: model:ir.model.fields,field_description:steven_servicios.field_cita__message_is_follower
+#: model:ir.model.fields,field_description:steven_servicios.field_cliente__message_is_follower
+#: model:ir.model.fields,field_description:steven_servicios.field_empleado__message_is_follower
+#: model:ir.model.fields,field_description:steven_servicios.field_servicio__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/cita.py:0
+#: code:addons/steven_servicios/models/cliente.py:0
+#: code:addons/steven_servicios/models/empleado.py:0
+#: model:ir.model.fields,field_description:steven_servicios.field_cita__cliente_last_name
+#: model:ir.model.fields,field_description:steven_servicios.field_cliente__last_name
+#: model:ir.model.fields,field_description:steven_servicios.field_empleado__last_name
+#, python-format
+msgid "Last Name"
+msgstr "Apellidos"
+
+#. module: steven_servicios
+#: model:ir.model.fields,field_description:steven_servicios.field_cita__write_uid
+#: model:ir.model.fields,field_description:steven_servicios.field_cliente__write_uid
+#: model:ir.model.fields,field_description:steven_servicios.field_empleado__write_uid
+#: model:ir.model.fields,field_description:steven_servicios.field_servicio__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: steven_servicios
+#: model:ir.model.fields,field_description:steven_servicios.field_cita__write_date
+#: model:ir.model.fields,field_description:steven_servicios.field_cliente__write_date
+#: model:ir.model.fields,field_description:steven_servicios.field_empleado__write_date
+#: model:ir.model.fields,field_description:steven_servicios.field_servicio__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: steven_servicios
+#: model:ir.ui.menu,name:steven_servicios.menu_gestion
+msgid "Management"
+msgstr "Gestión"
+
+#. module: steven_servicios
+#: model:ir.model.fields,field_description:steven_servicios.field_cita__message_has_error
+#: model:ir.model.fields,field_description:steven_servicios.field_cliente__message_has_error
+#: model:ir.model.fields,field_description:steven_servicios.field_empleado__message_has_error
+#: model:ir.model.fields,field_description:steven_servicios.field_servicio__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: steven_servicios
+#: model:ir.model.fields,field_description:steven_servicios.field_cita__message_ids
+#: model:ir.model.fields,field_description:steven_servicios.field_cliente__message_ids
+#: model:ir.model.fields,field_description:steven_servicios.field_empleado__message_ids
+#: model:ir.model.fields,field_description:steven_servicios.field_servicio__message_ids
+msgid "Messages"
+msgstr "Mensajes"
+
+#. module: steven_servicios
+#: model:ir.model.fields,field_description:steven_servicios.field_cita__my_activity_date_deadline
+#: model:ir.model.fields,field_description:steven_servicios.field_cliente__my_activity_date_deadline
+#: model:ir.model.fields,field_description:steven_servicios.field_empleado__my_activity_date_deadline
+#: model:ir.model.fields,field_description:steven_servicios.field_servicio__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr ""
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/cliente.py:0
+#: code:addons/steven_servicios/models/empleado.py:0
+#: code:addons/steven_servicios/models/servicio.py:0
+#: model:ir.model.fields,field_description:steven_servicios.field_cliente__name
+#: model:ir.model.fields,field_description:steven_servicios.field_empleado__name
+#: model:ir.model.fields,field_description:steven_servicios.field_servicio__name
+#: model_terms:ir.ui.view,arch_db:steven_servicios.view_empleado_search
+#: model_terms:ir.ui.view,arch_db:steven_servicios.view_servicio_search
+#, python-format
+msgid "Name"
+msgstr "Nombre"
+
+#. module: steven_servicios
+#: model:ir.model.fields,field_description:steven_servicios.field_cita__activity_date_deadline
+#: model:ir.model.fields,field_description:steven_servicios.field_cliente__activity_date_deadline
+#: model:ir.model.fields,field_description:steven_servicios.field_empleado__activity_date_deadline
+#: model:ir.model.fields,field_description:steven_servicios.field_servicio__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: steven_servicios
+#: model:ir.model.fields,field_description:steven_servicios.field_cita__activity_summary
+#: model:ir.model.fields,field_description:steven_servicios.field_cliente__activity_summary
+#: model:ir.model.fields,field_description:steven_servicios.field_empleado__activity_summary
+#: model:ir.model.fields,field_description:steven_servicios.field_servicio__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: steven_servicios
+#: model:ir.model.fields,field_description:steven_servicios.field_cita__activity_type_id
+#: model:ir.model.fields,field_description:steven_servicios.field_cliente__activity_type_id
+#: model:ir.model.fields,field_description:steven_servicios.field_empleado__activity_type_id
+#: model:ir.model.fields,field_description:steven_servicios.field_servicio__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: steven_servicios
+#: model:ir.model.fields.selection,name:steven_servicios.selection__cliente__priority__0
+msgid "Normal"
+msgstr ""
+
+#. module: steven_servicios
+#: model_terms:ir.ui.view,arch_db:steven_servicios.view_cita_tree
+msgid "Notes"
+msgstr "Notas"
+
+#. module: steven_servicios
+#: model:ir.model.fields,field_description:steven_servicios.field_cita__message_needaction_counter
+#: model:ir.model.fields,field_description:steven_servicios.field_cliente__message_needaction_counter
+#: model:ir.model.fields,field_description:steven_servicios.field_empleado__message_needaction_counter
+#: model:ir.model.fields,field_description:steven_servicios.field_servicio__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: steven_servicios
+#: model:ir.model.fields,field_description:steven_servicios.field_cita__message_has_error_counter
+#: model:ir.model.fields,field_description:steven_servicios.field_cliente__message_has_error_counter
+#: model:ir.model.fields,field_description:steven_servicios.field_empleado__message_has_error_counter
+#: model:ir.model.fields,field_description:steven_servicios.field_servicio__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: steven_servicios
+#: model:ir.model.fields,help:steven_servicios.field_cita__message_needaction_counter
+#: model:ir.model.fields,help:steven_servicios.field_cliente__message_needaction_counter
+#: model:ir.model.fields,help:steven_servicios.field_empleado__message_needaction_counter
+#: model:ir.model.fields,help:steven_servicios.field_servicio__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr ""
+
+#. module: steven_servicios
+#: model:ir.model.fields,help:steven_servicios.field_cita__message_has_error_counter
+#: model:ir.model.fields,help:steven_servicios.field_cliente__message_has_error_counter
+#: model:ir.model.fields,help:steven_servicios.field_empleado__message_has_error_counter
+#: model:ir.model.fields,help:steven_servicios.field_servicio__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: steven_servicios
+#: model:ir.model.fields.selection,name:steven_servicios.selection__cita__cita_status__overdue
+msgid "Overdue"
+msgstr "Atrasado"
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/cliente.py:0
+#: code:addons/steven_servicios/models/empleado.py:0
+#: model:ir.model.fields,field_description:steven_servicios.field_cliente__phone_number
+#: model:ir.model.fields,field_description:steven_servicios.field_empleado__phone_number
+#, python-format
+msgid "Phone Number"
+msgstr "Número de Teléfono"
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/servicio.py:0
+#: model:ir.model.fields,field_description:steven_servicios.field_servicio__price
+#, python-format
+msgid "Price"
+msgstr "Precio"
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/cliente.py:0
+#: model:ir.model.fields,field_description:steven_servicios.field_cliente__priority
+#, python-format
+msgid "Priority"
+msgstr "Prioridad"
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/cliente.py:0
+#: model:ir.model.fields,field_description:steven_servicios.field_cliente__date
+#, python-format
+msgid "Registration Date"
+msgstr "Fecha de registro"
+
+#. module: steven_servicios
+#: model:ir.model.fields,field_description:steven_servicios.field_cita__activity_user_id
+#: model:ir.model.fields,field_description:steven_servicios.field_cliente__activity_user_id
+#: model:ir.model.fields,field_description:steven_servicios.field_empleado__activity_user_id
+#: model:ir.model.fields,field_description:steven_servicios.field_servicio__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/cita.py:0
+#: code:addons/steven_servicios/models/servicio.py:0
+#: model:ir.model,name:steven_servicios.model_servicio
+#: model:ir.model.fields,field_description:steven_servicios.field_cita__ser_code
+#: model_terms:ir.ui.view,arch_db:steven_servicios.view_servicio_form
+#, python-format
+msgid "Service"
+msgstr "Servicio"
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/cita.py:0
+#: code:addons/steven_servicios/models/servicio.py:0
+#: model:ir.model.fields,field_description:steven_servicios.field_servicio__code
+#: model:ir.model.fields,help:steven_servicios.field_cita__ser_code
+#, python-format
+msgid "Service Code"
+msgstr "Código Servicio"
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/servicio.py:0
+#: model:ir.model.fields,help:steven_servicios.field_servicio__code
+#, python-format
+msgid "Service code"
+msgstr "Código Servicio"
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/servicio.py:0
+#: model:ir.model.fields,help:steven_servicios.field_servicio__name
+#, python-format
+msgid "Service name"
+msgstr "Nombre del Servicio"
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/servicio.py:0
+#: model:ir.model.fields,help:steven_servicios.field_servicio__price
+#, python-format
+msgid "Service prices"
+msgstr "Precio del Servicio"
+
+#. module: steven_servicios
+#: model:ir.ui.menu,name:steven_servicios.menu_servicios
+msgid "Services"
+msgstr "Servicios"
+
+#. module: steven_servicios
+#: model:ir.actions.act_window,name:steven_servicios.action_servicio
+msgid "Servicio"
+msgstr ""
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/cita.py:0
+#: model:ir.model.fields,field_description:steven_servicios.field_cita__cita_status
+#, python-format
+msgid "Status"
+msgstr "Estado"
+
+#. module: steven_servicios
+#: model:ir.model.fields,help:steven_servicios.field_cita__activity_state
+#: model:ir.model.fields,help:steven_servicios.field_cliente__activity_state
+#: model:ir.model.fields,help:steven_servicios.field_empleado__activity_state
+#: model:ir.model.fields,help:steven_servicios.field_servicio__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: steven_servicios
+#: model:ir.ui.menu,name:steven_servicios.menu_root
+msgid "Steven Services"
+msgstr "Servicios Steven"
+
+#. module: steven_servicios
+#: model_terms:ir.actions.act_window,help:steven_servicios.action_cliente
+msgid "There is no data, click here to add new Client."
+msgstr ""
+
+#. module: steven_servicios
+#: model_terms:ir.actions.act_window,help:steven_servicios.action_cita
+msgid "There is no examples click here to add new Appointment."
+msgstr ""
+
+#. module: steven_servicios
+#: model_terms:ir.actions.act_window,help:steven_servicios.action_empleado
+msgid "There is no examples click here to add new Employee."
+msgstr ""
+
+#. module: steven_servicios
+#: model_terms:ir.actions.act_window,help:steven_servicios.action_servicio
+msgid "There is no examples click here to add new Service."
+msgstr ""
+
+#. module: steven_servicios
+#. odoo-python
+#: code:addons/steven_servicios/models/cita.py:0
+#, python-format
+msgid "This employee already has an appointment at this time."
+msgstr "Este empleado ya tiene una cita a esta hora."
+
+#. module: steven_servicios
+#: model:ir.model.fields.selection,name:steven_servicios.selection__cita__cita_status__today
+msgid "Today"
+msgstr "Hoy"
+
+#. module: steven_servicios
+#: model:ir.model.fields,help:steven_servicios.field_cita__activity_exception_decoration
+#: model:ir.model.fields,help:steven_servicios.field_cliente__activity_exception_decoration
+#: model:ir.model.fields,help:steven_servicios.field_empleado__activity_exception_decoration
+#: model:ir.model.fields,help:steven_servicios.field_servicio__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: steven_servicios
+#: model:ir.actions.server,name:steven_servicios.ir_cron_update_cita_statuses_ir_actions_server
+msgid "Update Cita Statuses"
+msgstr ""
+
+#. module: steven_servicios
+#: model:ir.model.fields.selection,name:steven_servicios.selection__cliente__priority__1
+msgid "Urgent"
+msgstr "Urgente"

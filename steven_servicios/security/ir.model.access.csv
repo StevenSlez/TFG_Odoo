@@ -1,0 +1,5 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+access_cliente_manager,cliente_manager,model_cliente,base.group_user,1,1,1,1
+access_cita_manager,cita_manager,model_cita,base.group_user,1,1,1,1
+access_empleado_manager,empleado_manager,model_empleado,base.group_user,1,1,1,1
+access_servicio_manager,servicio_manager,model_servicio,base.group_user,1,1,1,1

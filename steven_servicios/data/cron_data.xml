@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Cron job for updating cita statuses -->
+    <record id="ir_cron_update_cita_statuses" model="ir.cron">
+        <field name="name">Update Cita Statuses</field>
+        <field name="model_id" ref="model_cita"/>
+        <field name="state">code</field>
+        <field name="code">model.update_cita_statuses()</field>
+        <field name="user_id" ref="base.user_root"/>
+        <field name="interval_number">1</field>
+        <field name="interval_type">minutes</field>
+        <field name="numbercall">-1</field>
+        <field name="doall" eval="False"/>
+    </record>
+</odoo>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- View cita View Tree -->
+    <record id="view_cita_tree" model="ir.ui.view">
+        <field name="name">view.cita.tree</field>
+        <field name="model">cita</field>
+        <field name="arch" type="xml">
+            <tree default_order="cita_date desc, cli_code" 
+            decoration-danger="cita_status == 'overdue'" 
+            decoration-success="cita_status == 'today'">
+                <field name="code" />
+                <field name="cli_code" optional="show" />
+                <field name="cliente_last_name" optional="show"/>
+                <field name="ser_code" optional="show" />
+                <field name="emp_code" optional="show" />
+                <field name="cita_date" widget="date" optional="show" />
+                <field name="activity_ids" string="Notes" widget="list_activity" optional="show"/>
+                <field name="cita_status" column_invisible="True"/>
+            </tree>            
+        </field>
+    </record>
+
+    <!-- View cita form -->
+    <record id="view_cita_form" model="ir.ui.view">
+        <field name="name">view.cita.form</field>
+        <field name="model">cita</field>
+        <field name="arch" type="xml">
+            <form string="Appointment">
+                <sheet>
+                    <field name="active" invisible="1"/>
+                    <widget name="web_ribbon" title="Archived" bg_color="text-bg-success" invisible="active"/>
+                    <div class="oe_title">
+                        <label for="code" />
+                        <h3>
+                            <field name="code" />
+                        </h3>
+                        <group name="values" string="Detailed Information" col="2">
+                            <field name="cli_code" />
+                            <field name="ser_code" />
+                            <field name="emp_code" />
+                            <field name="cita_date" />
+                        </group>
+                    </div>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" widget="mail_followers"/>
+                    <field name="activity_ids" widget="mail_activity"/>
+                    <field name="message_ids" widget="mail_thread" options="{'post_refresh': 'recipìents'}"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <!-- View cita search -->
+    <record id="view_cita_search" model="ir.ui.view">
+        <field name="name">view.cita.search</field>
+        <field name="model">cita</field>
+        <field name="arch" type="xml">
+            <search>
+                <group expand="1" string="Group By">
+                    <field name="code" />
+                    <field name="cli_code" />
+                    <field name="cliente_last_name"/>
+                    <field name="ser_code" />
+                    <field name="emp_code" />
+                    <filter string="Client" name="cli_code" domain="[]"
+                        context="{'group_by':'cli_code'}" />
+                    <filter string="Employee" name="emp_code" domain="[]"
+                        context="{'group_by':'emp_code'}" />
+                    <filter string="Date" name="cita_date" domain="[]"
+                        context="{'group_by':'cita_date'}" />
+                    <separator/>
+                    <filter name="archived" string="Archived" domain="[('active', '=', False)]"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <!-- Action cita -->
+    <record id="action_cita" model="ir.actions.act_window">
+        <field name="name">Cita</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">cita</field>
+        <field name="view_mode">tree,form,activity</field>
+        <field name="domain">[]</field>
+        <field name="context">{}</field>
+        <field name="help" type="html">
+            <p class="oe_view_nocontent_smiling_face">
+                There is no examples click here to add new Appointment.
+            </p>
+        </field>
+    </record>
+
+</odoo>

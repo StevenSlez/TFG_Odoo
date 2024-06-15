@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- View cliente View Tree -->
+    <record id="view_cliente_tree" model="ir.ui.view">
+        <field name="name">view.cliente.tree</field>
+        <field name="model">cliente</field>
+        <field name="arch" type="xml">
+            <tree default_order="priority desc">
+                <field name="priority" optional="show" widget="priority" nolabel="1"/>
+                <field name="code" />
+                <field name="name" optional="show" />
+                <field name="last_name" optional="show" />
+                <field name="dni_cli" optional="hide" />
+                <field name="phone_number" optional="show" />
+                <field name="date" widget="date" optional="show" />
+            </tree>
+        </field>
+    </record>
+
+    <!-- View cliente form -->
+    <record id="view_cliente_form" model="ir.ui.view">
+        <field name="name">view.cliente.form</field>
+        <field name="model">cliente</field>
+        <field name="arch" type="xml">
+            <form string="Client">
+                <sheet>
+                    <div class="oe_title">
+                        <label for="code" />
+                        <h3>
+                            <field name="code" />
+                        </h3>
+                        <group name="values" string="Detailed Information">
+                            <field name="name" />
+                            <field name="last_name" />
+                            <field name="dni_cli" />
+                            <field name="phone_number" />
+                            <field name="date" />
+                            <field name="priority" widget="priority"/>
+                        </group>
+                    </div>
+                    <notebook>
+                        <page string="Citas">
+                            <field name="cita_ids">
+                                <tree>
+                                    <field name="code"/>
+                                    <field name="ser_code"/>
+                                    <field name="emp_code"/>
+                                    <field name="cita_date"/>
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" widget="mail_followers"/>
+                    <field name="activity_ids" widget="mail_activity"/>
+                    <field name="message_ids" widget="mail_thread" options="{'post_refresh': 'recipìents'}"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <!-- View cliente search -->
+    <record id="view_cliente_search" model="ir.ui.view">
+        <field name="name">view.cliente.search</field>
+        <field name="model">cliente</field>
+        <field name="arch" type="xml">
+            <search>
+                <group expand="1" string="Group By">
+                    <field name="code" />
+                    <field name="name" />
+                    <field name="last_name" />
+                    <field name="phone_number" />
+                    <field name="dni_cli" />
+                    <filter string="Date" name="date" domain="[]" context="{'group_by':'date'}" />
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <!-- Action cliente -->
+    <record id="action_cliente" model="ir.actions.act_window">
+        <field name="name">Cliente</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">cliente</field>
+        <field name="view_mode">tree,form</field>
+        <field name="domain">[]</field>
+        <field name="context">{}</field>
+        <field name="help" type="html">
+            <p class="oe_view_nocontent_smiling_face">
+                There is no data, click here to add new Client.
+            </p>
+        </field>
+    </record>
+
+</odoo>

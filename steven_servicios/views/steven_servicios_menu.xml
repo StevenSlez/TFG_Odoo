@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+    <!-- Menu Items -->
+    <menuitem id="menu_root" name="Steven Services" sequence="10" groups="base.group_user"
+        web_icon="steven_servicios,static\description\icon.png" />
+
+        <menuitem id="menu_citas" name="Appointment" parent="menu_root" action="action_cita"
+            groups="base.group_user"
+            sequence="20" />
+
+        <menuitem id="menu_gestion" name="Management" parent="menu_root" action="action_cita"
+            groups="base.group_user"
+            sequence="30" />
+
+            <menuitem id="menu_cliente" name="Clients" parent="menu_gestion" action="action_cliente"
+                groups="base.group_user"
+                sequence="40" />
+
+            <menuitem id="menu_empleados" name="Employees" parent="menu_gestion" action="action_empleado"
+                groups="base.group_user"
+                sequence="50" />
+
+            <menuitem id="menu_servicios" name="Services" parent="menu_gestion" action="action_servicio"
+                groups="base.group_user"
+                sequence="60" />
+</odoo>

@@ -1,0 +1,38 @@
+/* Cambia el color de fondo de la barra de navegación */
+.o_main_navbar {
+    background-color: #1d5d88 !important;
+}
+
+/* Cambia el color de los botones */
+.btn-primary {
+    background-color: #e74c3c !important;
+    border-color: #e74c3c !important;
+}
+
+/* Cambia el color del botón de la pestaña que se despliega */
+/* .dropdown-item {
+    background-color: #1d5d88 !important; 
+    color: #ffffff !important;
+} */
+
+/* Cambia el color del botón de la pestaña desplegable */
+/* .dropdown-toggle {
+    background-color: #1d5d88 !important; 
+} */
+
+/* Cambia el color de la rueda dentada */
+/* .fa.fa-cog {
+    background-color: #ffffff !important; 
+} */
+
+/* Cambia el color de los botones del menú al completo */
+[data-menu-xmlid] {
+    background-color: #1d5d88 !important; 
+    color: #e9e9e9 !important;
+}
+
+/* Cambia el color del hover sobre los botones del menú al completo */
+[data-menu-xmlid]:hover {
+    background-color: #174d70 !important; 
+    color: #ffffff !important;
+}
